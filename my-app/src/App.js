@@ -24,17 +24,17 @@ class App extends Component {
 		<form>
 		<div class="form-group">
 				<label for="inputForMobile" class="form-group col-md-2" >Mobile Number:</label>
-				<input  class="form-control" id="inputForMobile" aria-describedby="emailHelp" placeholder="Enter mobile number" class="form-group col-md-2"/>
+				<input  class="form-control" id="inputForMobile" pattern="[0-9.]+" aria-describedby="emailHelp" placeholder="Enter mobile number" class="form-group col-md-2"/>
 				<small id="emailHelp" class="form-text text-muted form-group col-md-10">We'll never share your mobile number with anyone else.</small>
 			</div>
 			<div class="form-group">
-				<label for="exampleInputEmail1" class="form-group col-md-2">Email address:</label>
-				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" class="form-group col-md-2"/>
+				<label for="inputFirstName" class="form-group col-md-2">First Name:</label>
+				<input type="text" class="form-control" id="inputFirstName" aria-describedby="emailHelp" placeholder="First Name" class="form-group col-md-2"/>
 				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 			</div>
 			<div class="form-group">
-				<label for="exampleInputPassword1" class="form-group col-md-2">Password:</label>
-				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" class="form-group col-md-2"/>
+				<label for="inputLastName" class="form-group col-md-2">Last Name:</label>
+				<input type="text" class="form-control" id="inputLastName" placeholder="Last Name" class="form-group col-md-2"/>
 			</div>
 			<div class="form-group form-check">
 				<input type="checkbox" class="form-check-input" id="exampleCheck1"/>
